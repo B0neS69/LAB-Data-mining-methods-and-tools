@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import csv
-
+ 
 # Надсилаємо GET-запит для отримання вмісту сайту
 url = 'https://www.example.com'
 response = requests.get(url, verify=False)
