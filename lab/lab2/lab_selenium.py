@@ -28,7 +28,6 @@ try:
     # Збираємо дані
     for card in product_cards:
         try:
-            # Використовуємо CSS-селектори для пошуку назви та ціни всередині картки
             title = card.find_element(By.CSS_SELECTOR, '.product-item__title').text
             price = card.find_element(By.CSS_SELECTOR, '.product-cost').text
             
